@@ -1,6 +1,6 @@
 {
-  "name": "Look at PDF/Image",
+  "name": "Simple Google search",
   "version": "1.0.0",
-  "description": "Use model vision to examine a PDF or image",
+  "description": "Search Google, retrieve some results, get web page text",
   "services": []
 }
