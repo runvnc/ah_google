@@ -2,5 +2,6 @@
   "name": "Simple Google search",
   "version": "1.0.0",
   "description": "Search Google, retrieve some results, get web page text",
-  "services": []
+  "services": ["web_search"],
+  "commands": ["google", "fetch_webpage"]
 }

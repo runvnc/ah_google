@@ -1,8 +1,14 @@
+
+print("Loading mod.py for Google")
+
 import requests
 from bs4 import BeautifulSoup
 import random
+print(1)
 from lib.providers.services import service
+print(2)
 from lib.providers.commands import command
+print(3)
 import trafilatura
 
 @service()
@@ -128,3 +134,6 @@ if __name__ == "__main__":
         print(results)
     
     asyncio.run(test_google_search())
+
+
+print("Loaded mod.py for Google")
