@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 import random
-from lib.services import service
-from lib.commands import command
+from lib.providers.services import service
+from lib.providers.commands import command
 import trafilatura
 
 @service()
