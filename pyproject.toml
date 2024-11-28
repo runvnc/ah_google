@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Google search and read web page"
 requires-python = ">=3.7"
 
-dependencies = [ "requests", "bs4", "trafilatura" ]
+dependencies = [ "requests", "bs4", "trafilatura", "lxml_html_clean" ]
 
 
 [project.optional-dependencies]
